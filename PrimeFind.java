@@ -24,7 +24,7 @@ public static void main(String args[])throws Exception{
 
        primeOrNot = "Prime";  
        testValue = Double.valueOf(name);
-       if (testValue = 1.0) {System.out.println("1 is not a prime number");}
+       if (testValue == 1.0) {System.out.println("1 is not a prime number");}
      
    } while (testValue < 1);
 
