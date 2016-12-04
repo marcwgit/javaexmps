@@ -26,7 +26,7 @@ public static void main(String args[])throws Exception{
        testValue = Double.valueOf(name);
        if (testValue == 1.0) {System.out.println("1 is not a prime number");}
      
-   } while (testValue <= 2.0);
+   } while (testValue <= 1.9);
 
 //  START TEST
 //  for(int i=2; i<testValue; i++){
