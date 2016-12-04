@@ -7,7 +7,7 @@ public static void main(String args[])throws Exception{
   
  String name="";  
 //   big problem   String primeOrNot="Prime";
-  Double testValue = 0;
+  Double testValue = 0.0;
  
 
 
