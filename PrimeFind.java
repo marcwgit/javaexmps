@@ -6,6 +6,7 @@ public static void main(String args[])throws Exception{
  BufferedReader br=new BufferedReader(r);  
   
  String name="";  
+ String primeOrNot = "Prime";
 //   big problem   String primeOrNot="Prime";
   Double testValue = 0.0;
  
@@ -21,7 +22,7 @@ public static void main(String args[])throws Exception{
  
 // declare test values and reinitialize for new test
 
-       String primeOrNot = "Prime";  
+       primeOrNot = "Prime";  
        testValue = Double.valueOf(name);
    }
 
