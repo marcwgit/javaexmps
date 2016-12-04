@@ -15,7 +15,7 @@ public static void main(String args[])throws Exception{
 // start while loop and ask for input
 
   while(!name.equals("stop")){
-   while (testValue < 1){
+   do {
        System.out.println("Enter number a positive integer: ");  
        name=br.readLine();  
        System.out.println("data is: "+name);  
@@ -24,7 +24,7 @@ public static void main(String args[])throws Exception{
 
        primeOrNot = "Prime";  
        testValue = Double.valueOf(name);
-   }
+   } while (testValue < 1);
 
 //  START TEST
 //  for(int i=2; i<testValue; i++){
