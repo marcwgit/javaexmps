@@ -8,7 +8,8 @@ public static void main(String args[])throws Exception{
  String name="";  
  String primeOrNot = "Prime";
 //   big problem   String primeOrNot="Prime";
-  Double testValue = 0.0;
+  int testValue = 0;
+  int i = 0;
  
 
 
@@ -23,7 +24,7 @@ public static void main(String args[])throws Exception{
 // declare test values and reinitialize for new test
 
        primeOrNot = "Prime";  
-       testValue = Double.valueOf(name);
+       testValue = Integer.valueOf(name);
        if (testValue == 1.0) {System.out.println("1 is not a prime number");}
      
    } while (testValue <= 1.9);
