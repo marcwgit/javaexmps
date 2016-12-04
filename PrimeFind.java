@@ -22,7 +22,7 @@ public static void main(String args[])throws Exception{
 // declare test values and reinitialize for new test
 
        String primeOrNot = "Prime";  
-       Double testValue = Double.valueOf(name);
+       testValue = Double.valueOf(name);
    }
 
 //  START TEST
