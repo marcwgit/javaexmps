@@ -45,7 +45,11 @@ public static void main(String args[])throws Exception{
       count++;
       pastVal = latestVal;
       latestVal = sumVal;
+      System.out.println("sumVal    pastVal     latestVal     count     loop end");
       System.out.println(sumVal+" "+pastVal+" "+latestVal+" "+count+" loop end");
+      System.out.println("firstNum : "+firstNum+" secNum : "+secNum);
+      System.out.println("pastVal : "+pastVal+" latestVal : "+latestVal);
+
    }
    System.out.println(count);
  br.close();
