@@ -1,4 +1,4 @@
-nimport java.io.*;  
+import java.io.*;  
 public class RangePrime{  
 public static void main(String args[])throws Exception{  
 
