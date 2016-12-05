@@ -14,7 +14,7 @@ public static void main(String args[])throws Exception{
    int pastVal=1;
    int sumVal=0;
    int count=1;
-   int age = 0:
+   int age = 0;
   
    System.out.println("Enter first number: ");
    num1=br.readLine();
