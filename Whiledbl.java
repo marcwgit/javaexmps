@@ -11,7 +11,7 @@ public static void main(String args[])throws Exception{
    int firstNum=0;
    int secNum=0;
    int latestVal=0;
-   int pastVal=0;
+   int pastVal=1;
    int sumVal=0;
    int count=1;
   
