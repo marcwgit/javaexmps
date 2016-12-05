@@ -15,12 +15,12 @@ int primeCount = 0;
   
        System.out.println("Enter starting number: ");  
        alphaLower=br.readLine();  
-       System.out.println("data is: "+name);
+       System.out.println("data is: "+alphaLower);
        
        
        System.out.println("Enter starting number: ");  
        alphaUpper=br.readLine();  
-       System.out.println("data is: "+name);
+       System.out.println("data is: "+alphaUpper);
  
 // declare test values and reinitialize for new test
 
