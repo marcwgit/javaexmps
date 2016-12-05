@@ -28,6 +28,16 @@ String primeOrNot = "";
          
 lowerNum = Integer.valueOf(alphaLower);
 upperNum = Integer.valueOf(alphaUpper);
+  
+  
+  test:
+  if (lowerNum <= 0){System.out.println("positive integer only");}
+  test:
+  if (upperNum <= 0){System.out.println("positive integer only");}
+  
+  //if (lowerNum<==0){lowerNum = 2;} 
+  //if (upperNum ==1){upperNum = 2;}
+  
   if (lowerNum ==1){lowerNum = 2;}
 
 for (int j=lowerNum; j <= upperNum; j++){
@@ -59,6 +69,8 @@ for (int j=lowerNum; j <= upperNum; j++){
 
 }
  System.out.println("Number of primes in range: "+primeCount);
+    
+    break test;
 
  br.close();  
  r.close();  
