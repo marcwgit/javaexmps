@@ -1,5 +1,5 @@
 import java.io.*;  
-public class Whiledbl{  
+public class Age{  
 public static void main(String args[])throws Exception{  
   
    InputStreamReader r=new InputStreamReader(System.in);  
