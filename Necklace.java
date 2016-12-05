@@ -14,7 +14,7 @@ public static void main(String args[])throws Exception{
    int pastVal=0;
    int sumVal=0;
    int count=1;
-   boolean timeToEnd = false
+   boolean timeToEnd = false;
   
  
    System.out.println("Enter first number: ");
