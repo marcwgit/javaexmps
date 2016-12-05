@@ -35,7 +35,7 @@ upperNum = Integer.valueOf(alphaUpper);
  // test1:
  // if (upperNum <= 0){System.out.println("positive integer only");}
   
-  if (lowerNum<==0){lowerNum = 2;} 
+  if (lowerNum <=0){lowerNum = 2;} 
   if (upperNum <=0){upperNum = 2;}
   
   if (lowerNum ==1){lowerNum = 2;}
