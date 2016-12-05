@@ -74,8 +74,7 @@ else
 
 
 
-boolean isTeenager = ((age > 0 && age < 13) || (age > 19)) ?   
-System.out.println("You are not a teenager") : System.out.println("You are a teenager");  
+boolean isTeenager = ((age > 0 && age < 13) || (age > 19)) ?  System.out.println("You are not a teenager") : System.out.println("You are a teenager");  
 
 
 
