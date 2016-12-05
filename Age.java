@@ -32,6 +32,25 @@ else
 
 
 
+if (!((age > 0 && age < 13) || (age > 19)))
+{
+  System.out.println("You are a teenager");
+}
+else
+{
+  System.out.println("You are not a teenager");
+}
+
+
+
+if (!(age > 0) || !(age < 13) && !(age > 19))
+{
+  System.out.println("You are a teenager");
+}
+else
+{
+  System.out.println("You are not a teenager");
+}
 
 
 
@@ -39,36 +58,6 @@ else
 
 
 
-if ((age > 0 && age < 13) || (age > 19))  
-{  
-  System.out.println("You are not a teenager");  
-}  
-else  
-{  
-  System.out.println("You are a teenager");  
-}  
-
-
-
-if ((age > 0 && age < 13) || (age > 19))  
-{  
-  System.out.println("You are not a teenager");  
-}  
-else  
-{  
-  System.out.println("You are a teenager");  
-}  
-
-
-
-if ((age > 0 && age < 13) || (age > 19))  
-{  
-  System.out.println("You are not a teenager");  
-}  
-else  
-{  
-  System.out.println("You are a teenager");  
-}  
 
 
 
