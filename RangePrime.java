@@ -44,7 +44,7 @@ for (int j=lowerNum; j <= upperNum; j++){
           break; 
       } // if loop end
 
-      if (primeOrNot == "Prime){ primeCount++; }
+      if (primeOrNot == "Prime"){ primeCount++; }
    } // for loop end 
 
    System.out.println(testValue +" is " + primeOrNot);
