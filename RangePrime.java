@@ -9,6 +9,7 @@ int lowerNum = 0;
 int upperNum = 0;
 int testValue = 0;
 int primeCount = 0;
+String primeOrNot = "";
   
  InputStreamReader r=new InputStreamReader(System.in);  
  BufferedReader br=new BufferedReader(r);  
