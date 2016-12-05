@@ -41,15 +41,15 @@ public static void main(String args[])throws Exception{
          sumVal = sumVal - 10;
       }
 
-      System.out.println(" "+sumVal+" ");
-      count++;
+      System.out.println(" "+sumVal+" latest value");
+      
       pastVal = latestVal;
       latestVal = sumVal;
       System.out.println("sumVal    pastVal     latestVal     count     loop end");
       System.out.println(sumVal+" "+pastVal+" "+latestVal+" "+count+" loop end");
       System.out.println("firstNum : "+firstNum+" secNum : "+secNum);
       System.out.println("pastVal : "+pastVal+" latestVal : "+latestVal);
-
+      count++;
    }
    System.out.println(count);
  br.close();
