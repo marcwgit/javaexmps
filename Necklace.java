@@ -25,6 +25,8 @@ public static void main(String args[])throws Exception{
  
    firstNum = Integer.valueOf(num1);
    secNum = Integer.valueOf(num2);
+  System.out.print(" "+firstNum);
+  System.out.print(" "+secNum);
    
    pastVal = firstNum;
    latestVal = secNum;
