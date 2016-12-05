@@ -1,0 +1,16 @@
+BufferedReader input = new BufferedReader(new FileReader(new File("C:\\testFile.txt")));
+try
+{
+  String line = null;
+  // Here we use a while loop because we won't
+  // know many lines the file has when this
+  // program runs.
+  while ((line = input.readLine()) != null)
+  {
+    System.out.println(line);
+  }
+} 
+finally
+{
+  input.close();
+}
