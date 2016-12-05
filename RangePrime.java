@@ -32,7 +32,7 @@ upperNum = Integer.valueOf(alphaUpper);
   
   test:
   if (lowerNum <= 0){System.out.println("positive integer only");}
-  test:
+  test1:
   if (upperNum <= 0){System.out.println("positive integer only");}
   
   //if (lowerNum<==0){lowerNum = 2;} 
@@ -70,7 +70,9 @@ for (int j=lowerNum; j <= upperNum; j++){
 }
  System.out.println("Number of primes in range: "+primeCount);
     
-    break test;
+    break test; 
+  break test1;
+  
 
  br.close();  
  r.close();  
