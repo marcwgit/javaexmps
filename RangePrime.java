@@ -3,8 +3,8 @@ public class RangePrime{
 public static void main(String args[])throws Exception{  
 
 
-string alphaLower = "";
-string alphaUpper = "";
+String alphaLower = "";
+String alphaUpper = "";
 int lowerNum = 0;
 int upperNum = 0;
 int testValue = 0;
