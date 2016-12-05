@@ -48,7 +48,7 @@ public static void main(String args[])throws Exception{
       }
 
 //      System.out.println(" "+sumVal+" latest value");
-//      System.out.print(" "+sumVal);
+      System.out.print(" "+sumVal);
       
       pastVal = latestVal;
       latestVal = sumVal;
