@@ -33,7 +33,7 @@ public static void main(String args[])throws Exception{
       
       System.out.println("firstNum : "+firstNum+" secNum : "+secNum);
 
-      sumVal = pastVal + latestVal;
+//      sumVal = pastVal + latestVal;
       System.out.println(sumVal+" "+pastVal+" "+latestVal+" "+count);
 /*      if (sumVal > 9){
          sumVal = sumVal - 10;
