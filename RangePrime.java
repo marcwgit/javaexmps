@@ -28,6 +28,7 @@ String primeOrNot = "";
          
 lowerNum = Integer.valueOf(alphaLower);
 upperNum = Integer.valueOf(alphaUpper);
+  if (lowerNum ==1){lowerNum = 2:}
 
 for (int j=lowerNum; j <= upperNum; j++){
    testValue = j;
