@@ -31,8 +31,8 @@ public static void main(String args[])throws Exception{
 
 //  START TEST
 //  for(int i=2; i<testValue; i++){
-   for(int i=2; i<(testValue/2)+1; i++){
-//   for(int i=2; i<(testValue/i)+1; i++){    // prevent tests of multiples 
+//   for(int i=2; i<(testValue/2)+1; i++){
+   for(int i=2; i<(testValue/i)+1; i++){    // prevent tests of multiples 
  
      System.out.println(testValue + " " + i + " " + testValue%i);
      if ((testValue % i) == 0)
