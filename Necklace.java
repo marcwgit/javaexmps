@@ -38,29 +38,32 @@ public static void main(String args[])throws Exception{
      
     
       
-      System.out.println("firstNum : "+firstNum+" secNum : "+secNum);
-      System.out.println("pastVal : "+pastVal+" latestVal : "+latestVal);
+//      System.out.println("firstNum : "+firstNum+" secNum : "+secNum);
+//      System.out.println("pastVal : "+pastVal+" latestVal : "+latestVal);
 
       sumVal = pastVal + latestVal;
-      System.out.println(sumVal+" "+pastVal+" "+latestVal+" "+count);
+//      System.out.println(sumVal+" "+pastVal+" "+latestVal+" "+count);
       if (sumVal > 9){
          sumVal = sumVal - 10;
       }
 
-      System.out.println(" "+sumVal+" latest value");
+//      System.out.println(" "+sumVal+" latest value");
+//      System.out.print(" "+sumVal);
       
       pastVal = latestVal;
       latestVal = sumVal;
-      System.out.println("sumVal    pastVal     latestVal     count     loop end");
-      System.out.println(sumVal+" "+pastVal+" "+latestVal+" "+count+" loop end");
-      System.out.println("firstNum : "+firstNum+" secNum : "+secNum);
-      System.out.println("pastVal : "+pastVal+" latestVal : "+latestVal);
+//      System.out.println("sumVal    pastVal     latestVal     count     loop end");
+//      System.out.println(sumVal+" "+pastVal+" "+latestVal+" "+count+" loop end");
+//      System.out.println("firstNum : "+firstNum+" secNum : "+secNum);
+//      System.out.println("pastVal : "+pastVal+" latestVal : "+latestVal);
       timeToEnd = (pastVal != firstNum && latestVal != secNum) ? false : true;
-      System.out.println("timeToEnd : "+timeToEnd);
+//      System.out.println("timeToEnd : "+timeToEnd);
       count++;
       
    }
+   System.out.println("");
    System.out.println(count);
+  
  br.close();
  r.close();
  }
