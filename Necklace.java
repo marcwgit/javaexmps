@@ -31,7 +31,7 @@ public static void main(String args[])throws Exception{
   while ((count < 2) || (( pastVal != firstNum) && (latestVal != secNum))){    
   //  while (count < 2 || (( pastVal != firstNum) && (latestVal != secNum))){
   // while (count < 2 || (((!(pastVal == firstNum)) && (!(latestVal == secNum))))){  //fails
-    while (pastVal != firstnum && latestVal != secNum) || count < 2{ 
+    while ((pastVal != firstnum && latestVal != secNum) || count < 2){ 
     
       
       System.out.println("firstNum : "+firstNum+" secNum : "+secNum);
