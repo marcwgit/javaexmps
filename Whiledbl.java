@@ -24,7 +24,7 @@ public static void main(String args[])throws Exception{
    firstNum = Integer.valueOf(num1);
    secNum = Integer.valueOf(num2);
    
-   pastVal = firstNum;
+ //  pastVal = firstNum;
    latestVal = secNum;
 
    
