@@ -15,7 +15,8 @@ public static void main(String args[])throws Exception{
    int sumVal=0;
    int count=1;
    
-    while ((count < 2) || (( pastVal != firstNum) && (latestVal != secNum))){
+//    while ((count < 2) || (( pastVal != firstNum) && (latestVal != secNum))){
+    while ((count < 2) || (!(( pastVal == firstNum) && (latestVal == secNum)))){
       
       System.out.println("firstNum : "+firstNum+" secNum : "+secNum);
 
