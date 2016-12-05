@@ -14,6 +14,8 @@ public static void main(String args[])throws Exception{
    int pastVal=0;
    int sumVal=0;
    int count=1;
+   boolean timeToEnd = false
+  
  
    System.out.println("Enter first number: ");
    num1=br.readLine();
@@ -31,7 +33,9 @@ public static void main(String args[])throws Exception{
  // while ((count < 2) || (( pastVal != firstNum) && (latestVal != secNum))){    
   //  while (count < 2 || (( pastVal != firstNum) && (latestVal != secNum))){
   // while (count < 2 || (((!(pastVal == firstNum)) && (!(latestVal == secNum))))){  //fails
-    while ((pastVal != firstNum && latestVal != secNum) || count < 2){ 
+    while (!(pastVal == firstNum && latestVal == secNum) || count < 2){ 
+      
+     
     
       
       System.out.println("firstNum : "+firstNum+" secNum : "+secNum);
@@ -51,6 +55,8 @@ public static void main(String args[])throws Exception{
       System.out.println(sumVal+" "+pastVal+" "+latestVal+" "+count+" loop end");
       System.out.println("firstNum : "+firstNum+" secNum : "+secNum);
       System.out.println("pastVal : "+pastVal+" latestVal : "+latestVal);
+      timeToEnd = (pastVal != firstNum && latestVal != secNum) ? false : true;
+      System.out.println("timeToEnd : "+timeToEnd);
       count++;
       
    }
