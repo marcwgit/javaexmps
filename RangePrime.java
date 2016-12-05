@@ -30,13 +30,13 @@ lowerNum = Integer.valueOf(alphaLower);
 upperNum = Integer.valueOf(alphaUpper);
   
   
-  test:
-  if (lowerNum <= 0){System.out.println("positive integer only");}
-  test1:
-  if (upperNum <= 0){System.out.println("positive integer only");}
+ // test:
+ // if (lowerNum <= 0){System.out.println("positive integer only");}
+ // test1:
+ // if (upperNum <= 0){System.out.println("positive integer only");}
   
-  //if (lowerNum<==0){lowerNum = 2;} 
-  //if (upperNum ==1){upperNum = 2;}
+  if (lowerNum<==0){lowerNum = 2;} 
+  if (upperNum <=0){upperNum = 2;}
   
   if (lowerNum ==1){lowerNum = 2;}
 
@@ -70,8 +70,8 @@ for (int j=lowerNum; j <= upperNum; j++){
 }
  System.out.println("Number of primes in range: "+primeCount);
     
-    break test; 
-  break test1;
+//    break test; 
+ // break test1;
   
 
  br.close();  
