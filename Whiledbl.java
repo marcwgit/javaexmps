@@ -14,6 +14,19 @@ public static void main(String args[])throws Exception{
    int pastVal=0;
    int sumVal=0;
    int count=1;
+  
+   System.out.println("Enter first number: ");
+   num1=br.readLine();
+
+   System.out.println("Enter second number: ");
+   num2=br.readLine();
+ 
+   firstNum = Integer.valueOf(num1);
+   secNum = Integer.valueOf(num2);
+   
+   pastVal = firstNum;
+   latestVal = secNum;
+
    
 //    while ((count < 2) || (( pastVal != firstNum) && (latestVal != secNum))){
     while ((count < 2) || (!(( pastVal == firstNum) && (latestVal == secNum)))){
