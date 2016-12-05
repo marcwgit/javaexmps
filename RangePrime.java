@@ -1,5 +1,5 @@
 import java.io.*;  
-public class PrimeFind{  
+public class RangePrime{  
 public static void main(String args[])throws Exception{  
 
 
