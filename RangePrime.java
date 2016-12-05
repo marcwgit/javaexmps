@@ -1,4 +1,4 @@
-import java.io.*;  
+nimport java.io.*;  
 public class RangePrime{  
 public static void main(String args[])throws Exception{  
 
@@ -19,7 +19,7 @@ String primeOrNot = "";
        System.out.println("data is: "+alphaLower);
        
        
-       System.out.println("Enter starting number: ");  
+       System.out.println("Enter ending number: ");  
        alphaUpper=br.readLine();  
        System.out.println("data is: "+alphaUpper);
  
