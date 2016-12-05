@@ -50,7 +50,7 @@ public static void main(String args[])throws Exception{
       System.out.println("firstNum : "+firstNum+" secNum : "+secNum);
       System.out.println("pastVal : "+pastVal+" latestVal : "+latestVal);
       count++;
-      pastVal =100;
+      
    }
    System.out.println(count);
  br.close();
