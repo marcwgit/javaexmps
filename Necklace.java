@@ -27,7 +27,7 @@ public static void main(String args[])throws Exception{
    pastVal = firstNum;
    latestVal = secNum;
 
-   while ((count < 2) || (pastVal != firstNum && latestVal != secNum)){    // fails 
+ //  while ((count < 2) || (pastVal != firstNum && latestVal != secNum)){    // fails 
   while ((count < 2) || (( pastVal != firstNum) && (latestVal != secNum))){    
   //  while (count < 2 || (( pastVal != firstNum) && (latestVal != secNum))){
   // while (count < 2 || (((!(pastVal == firstNum)) && (!(latestVal == secNum))))){  //fails
