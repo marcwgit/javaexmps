@@ -27,10 +27,10 @@ public static void main(String args[])throws Exception{
    pastVal = firstNum;
    latestVal = secNum;
 
-  // while (count < 2 || (pastVal != firstNum && latestVal != secNum)){     
+   while ((count < 2) || (pastVal != firstNum && latestVal != secNum)){     
   //while (count < 2 || (( pastVal != firstNum) && (latestVal != secNum))){    //fails
   //  while (count < 2 || (( pastVal != firstNum) && (latestVal != secNum))){
-   while (count < 2 || (((!(pastVal == firstNum)) && (!(latestVal == secNum))))){
+  // while (count < 2 || (((!(pastVal == firstNum)) && (!(latestVal == secNum))))){  //fails
       
       System.out.println("firstNum : "+firstNum+" secNum : "+secNum);
       System.out.println("pastVal : "+pastVal+" latestVal : "+latestVal);
