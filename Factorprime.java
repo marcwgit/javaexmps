@@ -60,7 +60,84 @@ public static void main(String args[])throws Exception{
          count++;
       }
 
+      while (testnumber % 7  == 0){
 
+         testnumber = testnumber / 7;
+         
+         if (count == 0){
+            System.out.print("7");
+         } else {
+            System.out.print(",7");
+         }
+         count++;
+      }
+     
+     
+           while (testnumber % 11  == 0){
+
+         testnumber = testnumber / 11;
+         
+         if (count == 0){
+            System.out.print("11");
+         } else {
+            System.out.print(",11");
+         }
+         count++;
+      }
+     
+     
+           while (testnumber % 13  == 0){
+
+         testnumber = testnumber / 13;
+         
+         if (count == 0){
+            System.out.print("13");
+         } else {
+            System.out.print(",13");
+         }
+         count++;
+      }
+     
+     
+     
+           while (testnumber % 17  == 0){
+
+         testnumber = testnumber / 17;
+         
+         if (count == 0){
+            System.out.print("17");
+         } else {
+            System.out.print(",17");
+         }
+         count++;
+      }
+     
+     
+           while (testnumber % 19  == 0){
+
+         testnumber = testnumber / 19;
+         
+         if (count == 0){
+            System.out.print("19");
+         } else {
+            System.out.print(",19");
+         }
+         count++;
+      }
+     
+           while (testnumber % 23  == 0){
+
+         testnumber = testnumber / 23;
+         
+         if (count == 0){
+            System.out.print("23");
+         } else {
+            System.out.print(",23");
+         }
+         count++;
+      }
+     
+     
    }
    System.out.println();
  br.close();
