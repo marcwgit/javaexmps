@@ -18,7 +18,7 @@ public static void main(String args[])throws Exception{
 
    System.out.print("Prime factors: ");
 
-   while (testnumber > 2){
+//   while (testnumber > 2){
      
      for (int i=2; i< Math.sqrt(testnumber)+1; i++){
 
@@ -39,7 +39,7 @@ public static void main(String args[])throws Exception{
 
      } 
      
-   }
+   // }
   System.out.println(count);
   if (count==0){System.out.print(testnumber+" 1");}
    System.out.println();
