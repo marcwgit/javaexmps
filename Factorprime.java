@@ -7,7 +7,7 @@ public static void main(String args[])throws Exception{
 
    int count = 0;
    String num1="";
-   int testnumber= 0.0;
+   int testnumber= 0;
  
    System.out.println("Enter a number: ");
    num1=br.readLine();
