@@ -40,6 +40,7 @@ public static void main(String args[])throws Exception{
      } 
      
    }
+  if (count==0){System.out.print(testnumber+" 1");}
    System.out.println();
  br.close();
  r.close();
