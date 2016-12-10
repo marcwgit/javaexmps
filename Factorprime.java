@@ -20,7 +20,7 @@ public static void main(String args[])throws Exception{
 
 //   while (testnumber > 2){
      
-     for (int i=2; i< (testnumber/i)+1; i++){
+     for (int i=2; i< testnumber+1; i++){
 
 //      System.out.println("in 1 "+testnumber); 
       while (testnumber % i == 0){
