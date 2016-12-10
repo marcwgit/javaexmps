@@ -39,8 +39,8 @@ public static void main(String args[])throws Exception{
 
      } 
      
-   System.out.println(count);
-  if (count==0){System.out.print(testnumber+" 1");}
+//   System.out.println(count);
+  if (count==1){System.out.print(+",1");}
    System.out.println();
  br.close();
  r.close();
