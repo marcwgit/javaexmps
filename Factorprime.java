@@ -7,18 +7,18 @@ public static void main(String args[])throws Exception{
 
    int count = 0;
    String num1="";
-   Double testnumber= 0.0;
+   int testnumber= 0.0;
  
    System.out.println("Enter a number: ");
    num1=br.readLine();
 
-   testnumber = Double.valueOf(num1);
+   testnumber = Integer.valueOf(num1);
 
    System.out.println(testnumber);
 
    System.out.print("Prime factors: ");
 
-   while (testnumber > 2.0){
+   while (testnumber > 2){
      
      for (int i=2; i< Math.sqrt(testnumber)+1; i++){
 
