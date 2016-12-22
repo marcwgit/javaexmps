@@ -26,8 +26,10 @@ String primeOrNot = "";
 // declare test values and reinitialize for new test
 
          
-lowerNum = Integer.valueOf(alphaLower);
-upperNum = Integer.valueOf(alphaUpper);
+// lowerNum = Integer.valueOf(alphaLower);
+// upperNum = Integer.valueOf(alphaUpper);
+lowerNum = Integer.parseInt(alphaLower);
+upperNum = Integer.parseInt(alphaUpper);
   
   
  // test:
