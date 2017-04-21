@@ -3,9 +3,16 @@ import java.io.InputStreamReader;
 import java.lang.*;
 
 //import java.io.*;
-public class IsPrime{
+public class IsPrimec{
+	private int inpnumber;
 
-	public static void main(String[] args)throws Exception{
+
+	public IsPrimec(int inputNumber)  {
+	
+		inpnumber = inputnumber;
+		
+			
+		
 Long userinput, maxinput;
 	boolean result=true; //true means number is prime.
 		String name="";
