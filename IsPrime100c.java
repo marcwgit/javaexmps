@@ -8,7 +8,7 @@ Integer testnumber;
 		
 for(testnumber=1;testnumber<101; testnumber++){
 
-	testprime.operation(testnumber)
+	IsPrimec(testnumber)
 		
 }	   
 }}
