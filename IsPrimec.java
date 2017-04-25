@@ -4,12 +4,12 @@ import java.lang.*;
 
 //import java.io.*;
 public class IsPrimec{
-	private int inpnumber;
+	private int inpNumber;
 
 
 	public IsPrimec(int inputNumber)  {
 	
-		inpnumber = inputnumber;
+		inpNumber = inputNumber;
 		
 			
 		
@@ -17,7 +17,7 @@ Long userinput, maxinput;
 	boolean result=true; //true means number is prime.
 		String name="";
 System.out.println("Enter an integer: ");  
-name = System.console().readLine();
+//  name = System.console().readLine();
 
 // name=br.readLine(); 
 System.out.println("number is "+name);
