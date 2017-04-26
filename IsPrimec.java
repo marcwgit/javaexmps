@@ -17,18 +17,20 @@ Long maxinput;
 	boolean result=true; //true means number is prime.
 		String name="";
 System.out.println("Enter an integer: ");  
-<<<<<<< HEAD
+
 //  name = System.console().readLine();
-=======
+
 // name = System.console().readLine();
->>>>>>> cfcfd661029065b1a8fc45f250571c9f3c5fec4d
+
 
 // name=br.readLine(); 
 System.out.println("number is "+name);
-//value1 = Integer.valueof(na
-long userinput = inpnumber.longValue();		
-userinput = (inpnumber);		
-// userinput= Long.parseLong(name);
+
+// Long userinput = inpNumber.longValue();   no work	
+Long userinput = new Long(inpNumber);   //try this	
+//       userinput = (inpNumber);		
+ //userinput= Long.parseLong(name);
+ 
 	maxinput=(userinput/2)+1;
 	int j=maxinput.intValue();
 	System.out.println("Value of j "+j);
