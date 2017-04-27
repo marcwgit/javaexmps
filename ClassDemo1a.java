@@ -7,6 +7,8 @@ public class ClassDemo1a{
 	public static void main(String[] args)throws Exception{
 			
 	printThis();	
+	printThis();
+	printThis();
 		
 	}	
 	
