@@ -4,7 +4,7 @@ import java.lang.*;
 
 //import java.io.*;
 public class IsPrimec{
-	int inputNumber inpNumber;
+	int inputNumber, inpNumber;
 
 
 	public void isPrime()  {
