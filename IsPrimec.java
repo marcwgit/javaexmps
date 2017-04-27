@@ -4,10 +4,10 @@ import java.lang.*;
 
 //import java.io.*;
 public class IsPrimec{
-	private int inpNumber;
+	int inputNumber;
 
 
-	public IsPrimec(int inputNumber)  {
+	public void isPrime()  {
 	
 		inpNumber = inputNumber;
 		
