@@ -15,6 +15,8 @@ class Sec5Ex9{
 	
 	//System.out.println("in main "+readInput("minutes"));
 	//System.out.println("in main "+readInput("seconds"));
+	
+	displayHMS(mainMins,mainSecs);
    }
    
    
@@ -38,7 +40,7 @@ class Sec5Ex9{
 	  return a;
    }
    
-   static String displayHMS(Integer inpMins, Integer inpSecs){
+   static void displayHMS(Integer inpMins, Integer inpSecs){
 	   
 	   Integer hours, mins, secs;
 	   
@@ -54,5 +56,4 @@ class Sec5Ex9{
 	   System.out.println(mins);
 	   System.out.println(secs);
    }
-
 }
