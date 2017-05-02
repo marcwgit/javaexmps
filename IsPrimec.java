@@ -39,7 +39,7 @@ Long userinput = new Long(inpNumber);   //try this
 			result=false;
 			System.out.println(userinput +" divisible by " + count);
 			}else{
-			System.out.println(userinput +" not divisible by " + count);
+//			System.out.println(userinput +" not divisible by " + count);
 			}
 		}
 String s1=Boolean.toString(result);
