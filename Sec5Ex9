@@ -1,61 +1,58 @@
 import java.util.Scanner;
-
 import java.io.InputStreamReader;
-
 import java.lang.*;
-
- 
 
 class Sec5Ex9{
 
-
-
    public static void main(String args[])
-
    {
-
-	System.out.println
-
+	   Integer mainMins, mainSecs;
+	mainMins = readInput("minutes");
+	mainSecs = readInput("seconds");
+	
+	System.out.println(mainMins);
+	System.out.println(mainSecs);
+	
+	//System.out.println("in main "+readInput("minutes"));
+	//System.out.println("in main "+readInput("seconds"));
    }
-
    
-
    
-
    static void readTime(){
-
-	   
-
+	
    }
-
    
-
-   static integer readInput()
-
+   static Integer readInput(String inpPrompt)
    {
-
       int a;
-
 //      float b;
-
 //      String s;
-
- 
+//	String prompt = inpPrompt;
 
       Scanner in = new Scanner(System.in);
 
- 
-
-		System.out.println("Enter an integer");
-
+		System.out.print("Enter "+inpPrompt+": ");
       a = in.nextInt();
-
-      System.out.println("You entered integer "+a);
-
+		System.out.println();
+      System.out.println("You entered "+a+" "+ inpPrompt);
 	  return a;
-
    }
-
    
+   static String displayHMS(Integer inpMins, Integer inpSecs){
+	   
+	   Integer hours, mins, secs;
+	   
+	   mins = inpSecs/60;
+	   secs = inpSecs - (mins*60);
+	   
+	   inpMins = inpMins + mins;
+	   hours = inpMins/60;
+	   
+	   mins = inpMins - (hours*60);
+	   
+	   System.out.println(hours);
+	   System.out.println(mins);
+	   System.out.println(secs);
+   }
 
 }
