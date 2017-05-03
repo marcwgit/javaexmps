@@ -17,8 +17,8 @@ class Sec5Ex3 {
 		System.out.println(level);
 		for (int i=0; i < level; i++){
 		
-			Spaces(level-1);
-			DrawBar((level*2)+1);	
+			Spaces(level-i);
+			DrawBar((i*2)+1);	
 			
 			
 			bottomWidth -=2;
