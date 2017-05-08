@@ -6,7 +6,7 @@ public class TimeCalc {
       /* Create two objects using constructor */
       Time timeOne = new Time(3600);
       Time timeTwo = new Time(3600);
-	  Time timeThree = new Time(0);
+//	  Time timeThree = new Time(0);
 	  
 
       // Invoking methods for each object created
@@ -22,10 +22,31 @@ public class TimeCalc {
       timeTwo.printTime();
       System.out.println(timeTwo.makeTotalSeconds());
 	  
-	  timeThree.timeHours(getInputInt("Hours"));
-      timeThree.timeMinutes(getInputInt("Minutes"));
-      timeThree.timeSeconds(getInputInt("Seconds"));
-      timeThree.printTime();
+      
+	  timeOne.timeHours(getInputInt("Hours"));
+      timeOne.timeMinutes(getInputInt("Minutes"));
+      timeOne.timeSeconds(getInputInt("Seconds"));
+      timeOne.printTime();
+	  System.out.println(timeOne.makeTotalSeconds());
+	  
+	  timeTwo.timeHours(getInputInt("Hours"));
+      timeTwo.timeMinutes(getInputInt("Minutes"));
+      timeTwo.timeSeconds(getInputInt("Seconds"));
+      timeTwo.printTime();
+	  System.out.println(timeTwo.makeTotalSeconds());
+      
+      
+
+	  
+//	  timeThree.timeHours(getInputInt("Hours"));
+//      timeThree.timeMinutes(getInputInt("Minutes"));
+//      timeThree.timeSeconds(getInputInt("Seconds"));
+//	   Time timeThree = new Time(3789);
+	  
+	   Time timeThree = new Time(timeOne.makeTotalSeconds() + timeTwo.makeTotalSeconds());
+	  timeThree.printTime();
+	  timeThree.displayFromSecsToHMS();
+	  
 	  System.out.println(timeThree.makeTotalSeconds());
 	  
 	  timeThree.printTotalSeconds();
