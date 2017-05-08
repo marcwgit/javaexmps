@@ -27,6 +27,13 @@ public class Time {
    public void timeSeconds(int timeSeconds) {
       seconds = timeSeconds;
    }
+   
+   public int makeTotalSeconds(){ //   (int timeHours,int timeMinutes,int timeSeconds){
+	//   seconds = timeSeconds;
+	 //  minutes = timeMinutes;
+	 //  hours = timeHours;
+	   return seconds+(minutes * 60) + (hours * 3600);
+   }
 
    // Assign the age of the Employee  to the variable age.
  //  public void timeHours(int timeHours) {
@@ -50,7 +57,7 @@ public class Time {
 //      System.out.println("Designation:" + designation );
 //      System.out.println("Salary:" + salary);
 	  System.out.println("Hours: " + hours );
-      System.out.println("Minutes: " + minutes );+
+      System.out.println("Minutes: " + minutes );
       System.out.println("Seconds:" + seconds );
    }
    
