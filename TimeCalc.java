@@ -20,14 +20,14 @@ public class TimeCalc {
       timeTwo.timeSeconds(500);
       timeTwo.printTime();
 	  
-	  timeThree.timeHours(getInputInt());
-      timeThree.timeMinutes(getInputInt());
-      timeThree.timeSeconds(getInputInt());
+	  timeThree.timeHours(getInputInt("Hours"));
+      timeThree.timeMinutes(getInputInt("Minutes"));
+      timeThree.timeSeconds(getInputInt("Seconds"));
       timeThree.printTime();
 	  
    }
    
-      public static int getInputInt()
+      public static int getInputInt(String Request)
    {
       int a;
 //      float b;
@@ -39,9 +39,9 @@ public class TimeCalc {
 //      s = in.nextLine();
 //      System.out.println("You entered string "+s);
 
-      System.out.println("Enter an integer");
+      System.out.println("Enter "+Request);
       a = in.nextInt();
-      System.out.println("You entered integer "+a);
+      System.out.println("You entered integer "+a+" "+ Request);
 	  return a;
 
 //      System.out.println("Enter a float");
