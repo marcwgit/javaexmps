@@ -24,8 +24,11 @@ public class TimeCalc {
       timeThree.timeMinutes(getInputInt("Minutes"));
       timeThree.timeSeconds(getInputInt("Seconds"));
       timeThree.printTime();
-	  
+	  System.out.println(timeThree.makeTotalSeconds());
    }
+   
+   
+   
    
       public static int getInputInt(String Request)
    {
