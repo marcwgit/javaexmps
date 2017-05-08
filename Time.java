@@ -42,6 +42,18 @@ public class Time {
 	   
    }
    
+   public void displayFromSecsToHMS(){
+	   int Hours, Mins, Secs;
+	   this.totalSeconds = totalSeconds;
+	   Hours = this.totalSeconds / 3600;
+	   Mins = (this.totalSeconds % 3600) / 60;
+//	   Mins = (this.totalSeconds - (Hours * 3600)) % 60;
+	   Secs = (this.totalSeconds % 3600) % 60;
+//	   Secs = (this.totalSeconds - (Hours * 3600) -(Mins * 60);
+	   System.out.println("Hours "+Hours+" Mins "+Mins+" Secs "+Secs);
+	   
+   }
+   
    
    public void displayFromSecsToHMS(Integer totalSeconds){
 	   int Hours, Mins, Secs;
