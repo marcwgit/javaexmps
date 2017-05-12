@@ -1,7 +1,7 @@
-import java.io.*;
 public class Time {
 
-   String name;
+//   String name;
+	int totalSeconds;
 //   int age;
 //   String designation;
 //   double salary;
@@ -9,8 +9,8 @@ public class Time {
 	int hours, minutes, seconds; 
 
    // This is the constructor of the class Employee
-   public Time(String name) {
-      this.name = name;
+   public Time(Integer totalSeconds) {
+      this.totalSeconds = totalSeconds;
    }
    
       // Assign the age of the Employee  to the variable age.
@@ -33,6 +33,38 @@ public class Time {
 	 //  minutes = timeMinutes;
 	 //  hours = timeHours;
 	   return seconds+(minutes * 60) + (hours * 3600);
+   }
+   
+   public void printTotalSeconds(){
+	   
+	   System.out.println(this.totalSeconds);
+	   System.out.println();
+	   
+   }
+   
+   public void displayFromSecsToHMS(){
+	   int Hours, Mins, Secs;
+	   this.totalSeconds = totalSeconds;
+	   Hours = this.totalSeconds / 3600;
+	   Mins = (this.totalSeconds % 3600) / 60;
+//	   Mins = (this.totalSeconds - (Hours * 3600)) % 60;
+	   Secs = (this.totalSeconds % 3600) % 60;
+//	   Secs = (this.totalSeconds - (Hours * 3600) -(Mins * 60);
+	   System.out.println("Hours "+Hours+" Mins "+Mins+" Secs "+Secs);
+	   
+   }
+   
+   
+   public void displayFromSecsToHMS(Integer totalSeconds){
+	   int Hours, Mins, Secs;
+	   this.totalSeconds = totalSeconds;
+	   Hours = this.totalSeconds / 3600;
+	   Mins = (this.totalSeconds % 3600) / 60;
+//	   Mins = (this.totalSeconds - (Hours * 3600)) % 60;
+	   Secs = (this.totalSeconds % 3600) % 60;
+//	   Secs = (this.totalSeconds - (Hours * 3600) -(Mins * 60);
+	   System.out.println("Hours "+Hours+" Mins "+Mins+" Secs "+Secs);
+	   
    }
 
    // Assign the age of the Employee  to the variable age.
